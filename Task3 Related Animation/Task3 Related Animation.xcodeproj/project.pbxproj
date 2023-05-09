@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEE456352A0ACB6F00D4208C /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE456342A0ACB6F00D4208C /* GradientSlider.swift */; };
 		EEF198922A0840DC00B70C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF198912A0840DC00B70C58 /* AppDelegate.swift */; };
 		EEF198942A0840DC00B70C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF198932A0840DC00B70C58 /* SceneDelegate.swift */; };
 		EEF198962A0840DC00B70C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF198952A0840DC00B70C58 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEE456342A0ACB6F00D4208C /* GradientSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
 		EEF1988E2A0840DC00B70C58 /* Task3 Related Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task3 Related Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF198912A0840DC00B70C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF198932A0840DC00B70C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				EEF198912A0840DC00B70C58 /* AppDelegate.swift */,
+				EEE456342A0ACB6F00D4208C /* GradientSlider.swift */,
 				EEF198932A0840DC00B70C58 /* SceneDelegate.swift */,
 				EEF198952A0840DC00B70C58 /* ViewController.swift */,
 				EEF198972A0840DC00B70C58 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE456352A0ACB6F00D4208C /* GradientSlider.swift in Sources */,
 				EEF198962A0840DC00B70C58 /* ViewController.swift in Sources */,
 				EEF198922A0840DC00B70C58 /* AppDelegate.swift in Sources */,
 				EEF198942A0840DC00B70C58 /* SceneDelegate.swift in Sources */,

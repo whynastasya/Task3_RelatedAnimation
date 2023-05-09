@@ -11,7 +11,7 @@ final class ViewController: UIViewController {
     
     private let squareView = UIView()
     private let squareViewDimension = CGFloat(100)
-    private let slider = UISlider()
+    private let slider = GradientSlider()
     private var animator = UIViewPropertyAnimator()
     private var constraints = [NSLayoutConstraint]()
     private var squareViewLeadingConstraint: NSLayoutConstraint? = nil
@@ -48,7 +48,6 @@ final class ViewController: UIViewController {
     }
     
     private func setupSlider() {
-        slider.tintColor = .systemPink.withAlphaComponent(0.4)
         slider.addTarget(self, action: #selector(changeValue), for: .valueChanged)
         slider.addTarget(self, action: #selector(upSlider), for: .touchUpInside)
     }
@@ -67,7 +66,8 @@ final class ViewController: UIViewController {
         
         constraints.append(slider.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor))
         constraints.append(slider.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor))
-        constraints.append(slider.topAnchor.constraint(equalTo: squareView.bottomAnchor, constant: squareViewDimension / 3))
+        constraints.append(slider.topAnchor.constraint(equalTo: squareView.bottomAnchor, constant: squareViewDimension / 2))
+        constraints.append(slider.heightAnchor.constraint(equalToConstant: 5))
         
         NSLayoutConstraint.activate(constraints)
     }
